@@ -31,5 +31,9 @@ function venv {
         list)
             ls $VENV_BASE
             ;;
+        *)
+            echo "Looking for help?"
+            echo -e "Options are \033[36mcreate\033[0m, \033[36mactivate\033[0m, \033[36mswitch\033[0m, \033[36mdelete\033[0m, and \033[36mlist\033[0m"
+            echo "deactivate will let you leave the virtualenv"    
     esac    
 }
