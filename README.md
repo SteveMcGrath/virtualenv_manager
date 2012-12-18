@@ -11,8 +11,6 @@ to be sourced in as part of the user's bash profile.
 	Installing pip...............done.
 	Stevens-MacBook-Air:~ steve$ venv activate test1
 	(test1)Stevens-MacBook-Air:~ steve$ venv delete test1
-	Stevens-MacBook-Air:~ steve$ vent list
-	-bash: vent: command not found
 	Stevens-MacBook-Air:~ steve$ venv list
 	brack	sc4
 	Stevens-MacBook-Air:~ steve$ 
