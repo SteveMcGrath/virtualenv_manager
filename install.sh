@@ -17,4 +17,5 @@ if [ ! -d "$HOME/.profile_scripts" ];then
 fi
 
 cp venv.sh $HOME/.profile_scripts/venv.sh
+source $PROFILE
 echo "Install Completed."
